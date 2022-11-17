@@ -25,96 +25,14 @@ body {
     }
 }
 
-header {
-    font-family: 'Oranienbaum', sans-serif;
-    a {
-        color: @white;
-        font-size: .9rem;
-    }
-    z-index: 100;
-}
+@import "blocks\header.less";
+@import "blocks\table.less";
+@import "blocks\helpers.less";
+@import "blocks\footer.less";
+@import "blocks\slider.less";
+@import "blocks\sticker.less";
+@import "blocks\about.less";
+@import "blocks\order.less";
 
-.inst {
-    background: url(../img/1438557260_inst_4.png) no-repeat;
-}
 
-.vk {
-    background: url(../img/1438423986_vk_3.png) no-repeat;
-}
-
-.fb {
-    background: url(../img/1438557245_ab_4.png) no-repeat;
-}
-
-.sprite__up {
-    width: 25px;
-    height: 25px;
-    background-position: 0 0 no-repeat;
-}
-
-.intro__bg {
-    width: 100%;
-    height: auto;
-    top: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-.logo__item {
-    font-family: 'Oranienbaum', sans-serif;
-    color: @white;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-.logo__desc {
-    font-family: 'Oranienbaum', sans-serif;
-    color: burlywood;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.about {
-    margin-top: 9rem;
-    background-color: @white;
-}
-
-.about__desc {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .9rem;
-}
-
-.about__photo {
-    width: 100%;
-    height: auto;
-}
-
-.order__list {
-        padding-left: 0;
-        margin-left: 0;
-        li {
-            list-style-type: none;
-            text-decoration: none;
-            color: @gray;
-            margin: 2rem 0;
-        }
-}
-
-.order__desc {
-    color: @gray;
-}
-
-.reviews {
-    img {
-        max-width: 10rem;
-        height: auto
-    }
-}
-
-@import "table.less";
-@import "helpers.less";
-@import "footer.less";
-@import "slider.less";
-@import "sticker.less";
 
